@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+     <link rel="stylesheet" href="/css/owl.carousel.min.css">
+     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+<body>
+  <header>
+     <nav class="navbar fixed-top navbar-expand-lg fixed-navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="" width="90px">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#acercade">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#precios">Precios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <img src="./assets/icons/facebook.svg" alt="" style="width: 20px;">
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <img src="./assets/icons/instagram.svg" alt="" style="width: 20px;">
+                        </a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+  </header>
+  <main>
+    <section class="scroll-panel inicio inicio--container" data-section-name="Inicio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 inicio-container--text">
+              <h1 class="mb-5" data-aos="zoom-in-right">Ven y rompelo todo!</h1>
+              <p class="mb-3 mt-4" data-aos="fade-up">Saca todo lo que traes dentro y vive una experiencia integral de terapia de descarga.</p>
+              <button type="submit" class="button-principal">RESERVA</button>
+          </div>
+          <!-- <div class="col-md-6 col-sm-12">
+            <div class="inicio-container--img">
+              <img src="./assets/img/man.png" alt="">
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="scroll-panel acercade acerca-de--container" id="acercade" data-section-name="acercade">
+      <div class="container">
+        <div class="row justify-content-center content--acerca-de">
+          <div class="col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-md-7 col-sm-12" data-aos="fade-right">
+                <div class="container-text-emociones">
+                  <h3 class="">Descarga de emociones</h3>
+                  <p class="">Estrés, frustración, ansiedad, enojo, rompiendo cosas (teles, impresoras, dvd’s y botellas, etc.), con apoyo especializado, en un espacio seguro y controlado, con costal para box, luces de colores y música seleccionada por el visitante.</p>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-12" data-aos="zoom-in-right">
+                <div class="container-img-emociones">
+                </div>  
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-md-5 col-sm-12" data-aos="zoom-in-left">
+                <div class="container-img-biofrecuencias" >
+                </div>
+              </div>
+              <div class="col-md-7 col-sm-12" data-aos="fade-left">
+                <div class="container-text-biofrecuencias" >
+                  <h3>Relajación con biofrecuencias</h3>
+                  <p>Relajación con biofrecuencias binaurales, que hacen vibrar desde el cerebro hasta el resto del cuerpo, para terminar de soltar las cargas, recuperar la armonía y recargar energía.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <section class="scroll-panel galeria gallery--container" data-section-name="galeria">
+      <div class="container">
+        <div class="row content-gallery-video">
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="gallery-container--text">
+              <h3>¿Cómo lo hacemos?</h3>
+              <p class="mt-4">Somos el único cuarto de ira en el mundo que integra tanto el descargar rompiendo, como la relajación con biofrecuencias, que realmente busca la renovación completa y hace la experiencia única.</p>
+              <p>Desde el inicio hasta el final, tenemos una atención personalizada, porque lo que más nos importa es que saques lo que necesitas y al mismo tiempo te diviertas.</p>
+              <p>Hacemos sesiones personalizadas de acuerdo a lo que necesites, desde una declaración de amor, hasta soltar a tu ex. </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9 gallery-container--video">
+              <iframe class="embed-responsive-item" src="./assets/img/Breakuot.mp4"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row content-gallery--img">
+          <div class="col-md-3 col-sm-12 mb-2"  data-aos="fade-up" data-aos-delay="0">
+            <div class="img--content" style="background-image: url(/assets/img/martillo.jpg);"></div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-2" data-aos="fade-up" data-aos-delay="100">
+            <div class="img--content" style="background-image: url(/assets/img/pareja-box.jpg);"></div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="img--content" style="background-image: url(/assets/img/traje-amarillo.jpg);"></div>
+          </div>
+          <div class="col-md-3 col-sm-12 mb-2" data-aos="fade-up" data-aos-delay="300">
+            <div class="img--content" style="background-image: url(/assets/img/amigos2.jpg);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="scroll-panel opiniones opiniones--container" data-section-name="opiniones">
+        <div class="container pt-5">
+          <h2 class="title-container--opiniones">Nuestros Clientes Opinan</h2>
+          <div class="owl-carousel owl-theme text-center opiniones carousel-container--opiniones">
+            <div class="carousel-content--img" style="background-image: url(/assets/img/pareja.jpg);" data-aos="zoom-in-down">
+              <div class="pl-3 pr-3">
+                <div class="row text-container--opiniones">
+                  <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis lorem sed sagittis tempus. Nulla fermentum eu neque at auctor. Etiam malesuada finibus turpis, non tempor orci ornare at.</p>
+                    <h6>Juan Perez Lopez</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-content--img" style="background-image: url(/assets/img/grupo.jpg);">
+              <div class="pl-3 pr-3">
+                <div class="row text-container--opiniones">
+                  <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis lorem sed sagittis tempus. Nulla fermentum eu neque at auctor. Etiam malesuada finibus turpis, non tempor orci ornare at.</p>
+                    <h6>Juan Perez Lopez</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-content--img" style="background-image: url(/assets/img/amigos.jpg);">
+              <div class="pl-3 pr-3">
+                <div class="row text-container--opiniones">
+                  <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis lorem sed sagittis tempus. Nulla fermentum eu neque at auctor. Etiam malesuada finibus turpis, non tempor orci ornare at.</p>
+                    <h6>Juan Perez Lopez</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="scroll-panel precios paquetes-container--slider pb-5" id="precios" data-section-name="precios">
+      <div class="container-fluid mt-5 mb-5">
+        <h2 class="paquetes-title">Nuestros paquetes</h2>
+        <div class="gallery" data-flickity='{ "autoPlay": false , "groupCells": true}'>
+          <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="100">
+              <div class="card-body paquetes-info-container">
+                <h4>CHINGA 20</h4>
+                <p class="paquete-card--precio"><span>$</span>350</p>
+                <ul class="paquete-card-incluye">
+                  <li>
+                    <span class="material-icons check-paquetes">done</span> 
+                    1 Persona</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    20 Botellas</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    5 Canciones</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    Saco de box</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Reset Energetico</li>
+                </ul>
+                <button class="button-reserva">RESERVA</button>
+              </div>
+          </div>
+          <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="200">
+              <div class="card-body paquetes-info-container">
+                <h4>CHINGA 40</h4>
+                <p class="paquete-card--precio"><span>$</span>500</p>
+                <ul class="paquete-card-incluye">
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    2 Personas</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    40 Botellas</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    5 Canciones</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                     Saco de box</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Reset Energetico</li>
+                </ul>
+                <button class="button-reserva">RESERVA</button>
+              </div>
+          </div>
+          <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="300">
+              <div class="card-body paquetes-info-container">
+                <h4>ELECTRO</h4>
+                <p class="paquete-card--precio"><span>$</span>650</p>
+                <ul class="paquete-card-incluye">
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    2 Personas</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    20 Botellas</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Electrónico</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    5 Canciones</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    Saco de box</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Reset Energetico</li>
+                </ul>
+                <button class="button-reserva">RESERVA</button>
+              </div>
+          </div>
+          <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="400">
+              <div class="card-body paquetes-info-container">
+                <h4>TV STAR</h4>
+                <p class="paquete-card--precio"><span>$</span>900</p>
+                <ul class="paquete-card-incluye">
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    2 Personas</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    30 Botellas</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Tv</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    5 Canciones</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    Saco de box</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    Reset Energetico</li>
+                </ul>
+                <button class="button-reserva">RESERVA</button>
+              </div>
+          </div>
+          <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="500">
+              <div class="card-body paquetes-info-container">
+                <h4>CAMPECHANO</h4>
+                <p class="paquete-card--precio"><span>$</span>1200</p>
+                <ul class="paquete-card-incluye">
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    2 Personas</li>
+                  <li>
+                    30 Botellas</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    Tv y electrónico</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    5 Canciones</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Saco de box</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Reset Energetico</li>
+                </ul>
+                <button class="button-reserva">RESERVA</button>
+              </div>
+          </div>
+          <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="600">
+              <div class="card-body paquetes-info-container">
+                <h4>ALL YOU CAN EAT</h4>
+                <p class="paquete-card--precio"><span>$</span>1500</p>
+                <ul class="paquete-card-incluye">
+                  <li>
+                    <span class="material-icons check-paquetes">done</span> 
+                    2 Personas</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    40 Botellas</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    2 Tvs y electrónico</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    5 Canciones</li>
+                  <li><span class="material-icons check-paquetes">done</span>  
+                    Saco de box</li>
+                  <li><span class="material-icons check-paquetes">done</span> 
+                    Reset Energetico</li>
+                </ul>
+                <button class="button-reserva">RESERVA</button>
+              </div>
+          </div>
+        </div>
+    </section>
+    <section class="scroll-panel contacto contacto--container" id="contacto" data-section-name="contacto">
+      <div class="container-fluid mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up">
+            <h3 class="contacto--title">Contáctanos</h3>
+            <form class="contacto--formulario">
+              <div class="form-group mb-4">
+                <label for="exampleFormControlInput1">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+              </div>
+              <div class="form-group mb-4">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="button-principal">ENVIAR</button>
+            </form>
+          </div>
+          <div class="col-md-3 mt-4">
+            <div data-aos="fade-up">
+              <img src="/assets/img/logo.png" alt="" style="width: 100px;">
+              <div class="contacto-text--direccion">
+                <p>Colonia Roma Sur</p>
+                <p>Cel: 55 85 80 65 25</p>
+                <a href="">reserva@breakout.com.mx</a>
+                <a href="">www.breakout.com.mx</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-4">
+            <ul class="contacto-redes-sociales" data-aos="fade-up">
+              <li class="">
+                  <a class="" href="#">
+                    <img src="./assets/icons/facebook.svg" alt="" style="width: 20px;">
+                  </a>
+                </li>
+                <li class="">
+                  <a class="" href="#">
+                    <img src="./assets/icons/instagram.svg" alt="" style="width: 20px;">
+                  </a>
+                </li>
+          </ul>
+          </div>
+        </div>
+      </div> 
+    </section>
+  </main>
+     
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script> -->
+     
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/owl.carousel.min.js"></script>
+      <script src="./js/config.js"></script>
+
+
+</body>
+</html>
+  

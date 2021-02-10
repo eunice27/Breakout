@@ -1,0 +1,56 @@
+.fixed-navbar-light {
+    background-color: transparent;
+}
+.fixed-navbar-light.scrolled {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: -130px;
+    background-color: var(--background-black) !important;
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    padding: 0 15px;
+}
+.fixed-navbar-light.scrolled.awake {
+    margin-top: 0px;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+}
+
+.content--acerca-de {
+    margin-top: 70px !important;
+    margin-bottom: 40px;
+}
+.acerca-de--container .container-text-biofrecuencias {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+
+.gallery--container .content-gallery--img {
+    margin-bottom: 20px;
+}
+
+/* opiniones */
+.carousel-container--opiniones {
+    padding: 50px 30px;
+}
+.carousel-content--img {
+    height: 560px;
+}
+
+/* Paquetes */
+.gallery-cell {
+    width: 25%;
+  }
+
+
+/* Contacto   */
+.contacto--formulario {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--off-white);
+}
