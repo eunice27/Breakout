@@ -18,7 +18,12 @@
      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
@@ -39,7 +44,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#acercade">Acerca de</a>
+                    <a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#precios">Precios</a>
@@ -60,92 +65,76 @@
                         </a>
                       </li>
                 </ul>
+                <button type="submit" class="button-principal">RESERVA</button>
               </div>
             </div>
         </nav>
   </header>
   <main>
-    <section class="scroll-panel inicio inicio--container" data-section-name="Inicio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12 inicio-container--text">
-              <h1 class="mb-5" data-aos="zoom-in-right">Ven y rompelo todo!</h1>
-              <p class="mb-3 mt-4" data-aos="fade-up">Saca todo lo que traes dentro y vive una experiencia integral de terapia de descarga.</p>
-              <button type="submit" class="button-principal">RESERVA</button>
-          </div>
-          <!-- <div class="col-md-6 col-sm-12">
-            <div class="inicio-container--img">
-              <img src="./assets/img/man.png" alt="">
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <section class="scroll-panel acercade acerca-de--container" id="acercade" data-section-name="acercade">
-      <div class="container">
-        <div class="row justify-content-center content--acerca-de">
-          <div class="col-md-9 col-sm-12">
-            <div class="row">
-              <div class="col-md-7 col-sm-12" data-aos="fade-right">
-                <div class="container-text-emociones">
-                  <h3 class="">Descarga de emociones</h3>
-                  <p class="">Estrés, frustración, ansiedad, enojo, rompiendo cosas (teles, impresoras, dvd’s y botellas, etc.), con apoyo especializado, en un espacio seguro y controlado, con costal para box, luces de colores y música seleccionada por el visitante.</p>
-                </div>
-              </div>
-              <div class="col-md-5 col-sm-12" data-aos="zoom-in-right">
-                <div class="container-img-emociones">
-                </div>  
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9 col-sm-12">
-            <div class="row">
-              <div class="col-md-5 col-sm-12" data-aos="zoom-in-left">
-                <div class="container-img-biofrecuencias" >
-                </div>
-              </div>
-              <div class="col-md-7 col-sm-12" data-aos="fade-left">
-                <div class="container-text-biofrecuencias" >
-                  <h3>Relajación con biofrecuencias</h3>
-                  <p>Relajación con biofrecuencias binaurales, que hacen vibrar desde el cerebro hasta el resto del cuerpo, para terminar de soltar las cargas, recuperar la armonía y recargar energía.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>  
-    </section>
-    <section class="scroll-panel galeria gallery--container" data-section-name="galeria">
-      <div class="container">
-        <div class="row content-gallery-video">
-          <div class="col-md-6" data-aos="fade-up">
-            <div class="gallery-container--text">
-              <h3>¿Cómo lo hacemos?</h3>
-              <p class="mt-4">Somos el único cuarto de ira en el mundo que integra tanto el descargar rompiendo, como la relajación con biofrecuencias, que realmente busca la renovación completa y hace la experiencia única.</p>
-              <p>Desde el inicio hasta el final, tenemos una atención personalizada, porque lo que más nos importa es que saques lo que necesitas y al mismo tiempo te diviertas.</p>
-              <p>Hacemos sesiones personalizadas de acuerdo a lo que necesites, desde una declaración de amor, hasta soltar a tu ex. </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="embed-responsive embed-responsive-16by9 gallery-container--video">
-              <iframe class="embed-responsive-item" src="./assets/img/Breakuot.mp4"></iframe>
+    <section>
+      <div class="inicio-video--container">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="/assets/img/Breakuot.mp4" type="video/mp4">
+        </video>
+        <div class="container inicio-text-container h-100">
+          <div class="row h-100 align-items-center justify-content-end text-inicio-content">
+            <div class="col-md-12 col-sm-6" data-aos="fade-down">
+                <h1 class="title-inicio mb-4">VEN Y ROMPELO TODO!</h1>
+                <!-- <p class="text-inicio mb-3 mt-3">Saca todo lo que traes dentro y vive una experiencia integral de terapia de descarga.</p> -->
+                <!-- <button type="submit" class="button-principal">RESERVA</button> -->
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <section class="seccion-carrousel-quienes-somos" id="quienes-somos">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" style="height: 100vh;">
+          <div class="carousel-item active carrousel-img-somos" style="height: 100%;">
+            <img src="/assets/img/martillo-luz.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block carrousel-text-somos" data-aos="fade-up">
+              <p>BreakOut, es una de las mejores formas de sacar todo lo que ha pasado con la pandemia, en una experiencia integral de terapia de descarga. Buscamos lograr un estado de relajación de forma divertida y dinámica, a partir de dos fases: </p>
+            </div>
+          </div>
+          <div class="carousel-item carrousel-img-somos" style="height: 100%;">
+            <img src="/assets/img/rompiendo-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block carrousel-text-somos" data-aos="fade-up">
+              <p>Descarga de emociones (estrés, frustración, ansiedad, enojo), rompiendo cosas (teles, impresoras, dvd’s y botellas, etc.), con apoyo especializado, en un espacio seguro y controlado, con costal para box, luces de colores y música seleccionada por el visitante.</p>
+            </div>
+          </div>
+          <div class="carousel-item carrousel-img-somos" style="height: 100%;">
+            <img src="/assets/img/traje-amarillo-luz.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block carrousel-text-somos" data-aos="fade-up">
+              <p>Relajación con biofrecuencias binaurales, que hacen vibrar desde el cerebro hasta el resto del cuerpo, para terminar de soltar las cargas, recuperar la armonía y recargar energía.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section style="background-color: var(--background-black);">
       <div class="container-fluid">
-        <div class="row content-gallery--img">
-          <div class="col-md-3 col-sm-12 mb-2"  data-aos="fade-up" data-aos-delay="0">
-            <div class="img--content" style="background-image: url(/assets/img/martillo.jpg);"></div>
+        <div class="row">
+          <div class="col-md-6 pl-0 pr-0">
+            <div class="relajacion-img" style="background-image: url(/assets/img/cuarto-relajacion.jpg);"></div>
           </div>
-          <div class="col-md-3 col-sm-12 mb-2" data-aos="fade-up" data-aos-delay="100">
-            <div class="img--content" style="background-image: url(/assets/img/pareja-box.jpg);"></div>
-          </div>
-          <div class="col-md-3 col-sm-12 mb-2" data-aos="fade-up" data-aos-delay="200">
-            <div class="img--content" style="background-image: url(/assets/img/traje-amarillo.jpg);"></div>
-          </div>
-          <div class="col-md-3 col-sm-12 mb-2" data-aos="fade-up" data-aos-delay="300">
-            <div class="img--content" style="background-image: url(/assets/img/amigos2.jpg);"></div>
+          <div class="col-md-6 mt-5 pl-5 pr-5">
+            <div class="text-quienes-somos--content">
+              <h3 data-aos="zoom-in-left">¿Quiénes somos?</h3>
+              <ul class="text--lista-quienes-somos">
+                <li data-aos="fade-up" data-aos-delay="100">Somos el único cuarto de ira en el mundo que integra tanto el descargar rompiendo, como la relajación con biofrecuencias, que realmente busca la renovación completa y hace la experiencia única.</li>
+                <li data-aos="fade-up" data-aos-delay="200">Desde el inicio hasta el final, tenemos una atención personalizada, porque lo que más nos importa es que saques lo que necesitas y al mismo tiempo te diviertas.</li>
+                <li data-aos="fade-up" data-aos-delay="300">Nuestro espacio es moderno y acogedor, desde la recepción.</li>
+                <li data-aos="fade-up" data-aos-delay="400">Hacemos sesiones personalizadas de acuerdo a lo que necesites, desde una declaración de amor, hasta soltar a tu ex.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -187,8 +176,8 @@
           </div>
         </div>
     </section>
-    <section class="scroll-panel precios paquetes-container--slider pb-5" id="precios" data-section-name="precios">
-      <div class="container-fluid mt-5 mb-5">
+    <section class="scroll-panel precios paquetes-container--slider" id="precios" data-section-name="precios">
+      <div class="container-fluid" style="padding-top: 30px; padding-bottom: 70px;">
         <h2 class="paquetes-title">Nuestros paquetes</h2>
         <div class="gallery" data-flickity='{ "autoPlay": false , "groupCells": true}'>
           <div class="gallery-cell" data-aos="zoom-in" data-aos-delay="100">
@@ -316,11 +305,12 @@
               </div>
           </div>
         </div>
+      </div>
     </section>
     <section class="scroll-panel contacto contacto--container" id="contacto" data-section-name="contacto">
       <div class="container-fluid mt-5 mb-5">
         <div class="row">
-          <div class="col-md-6" data-aos="fade-up">
+          <div class="col-md-6 formulario-contacto--container" data-aos="fade-up">
             <h3 class="contacto--title">Contáctanos</h3>
             <form class="contacto--formulario">
               <div class="form-group mb-4">
@@ -335,7 +325,7 @@
                 <label for="exampleFormControlTextarea1">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <button type="submit" class="button-principal">ENVIAR</button>
+              <button type="submit" class="button-principal mt-3">ENVIAR</button>
             </form>
           </div>
           <div class="col-md-3 mt-4">
@@ -349,8 +339,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 mt-4">
-            <ul class="contacto-redes-sociales" data-aos="fade-up">
+          <div class="col-md-3 mt-4" data-aos="fade-up">
+            <ul class="contacto-redes-sociales" >
               <li class="">
                   <a class="" href="#">
                     <img src="./assets/icons/facebook.svg" alt="" style="width: 20px;">
@@ -361,10 +351,10 @@
                     <img src="./assets/icons/instagram.svg" alt="" style="width: 20px;">
                   </a>
                 </li>
-          </ul>
+            </ul>
           </div>
         </div>
-      </div> 
+      </div>
     </section>
   </main>
      
