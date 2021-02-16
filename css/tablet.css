@@ -21,49 +21,42 @@
 
 
 /* Inicio */
-/* .inicio-text-container .text-inicio-content {
-    height: 620px;
-} */
 .inicio-video--container video{
     width: 100%;
     height: auto;
 }
 .inicio-text-container .title-inicio {
-    font-size: 6.6rem;
+    font-size: 6.8rem;
     text-align: right;
-    line-height: 7.6rem;
+    line-height: 7.9rem;
 }
 .inicio-text-container .text-inicio {
     font-size: 1.8rem;
     line-height: 2rem;
 }
-
-
-/* .content--acerca-de {
-    margin-top: 70px !important;
-    margin-bottom: 40px;
+.text-cinta--container h3 {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
 }
-.acerca-de--container .container-text-biofrecuencias {
-    margin-top: 60px;
-    margin-left: 50px;
-}
-
-.gallery--container .content-gallery--img {
-    margin-bottom: 20px;
-} */
 
 
 /* Quienes somos  */
-.carrousel-text-somos {
-    top: 50%;
+.fondo-mancha-amarilla {
+    background-position: top center;
 }
-.carrousel-text-somos p {
-    font-size: 1.8rem; 
-    line-height: 2rem;
+.quienes-somos--container {
+    padding: 120px 0 80px;
 }
 
-.relajacion-img {
-    height: 100vh;
+.gallery--container {
+    padding: 80px 0 80px;
+}
+.principal-gallery-content .img-principal {
+    height: auto;
+}
+
+.text-cinta-small--content h2 {
+    font-size: 2.4rem;
 }
 
 
@@ -76,14 +69,14 @@
 }
 
 /* Paquetes */
-.gallery-cell {
-    width: 22%;
+.carousel-cell {
+    width: 25%;
   }
 
 
 /* Contacto   */
 .contacto--formulario {
-    width: 80%;
+    width: 70%;
     font-size: 1rem;
     font-weight: 300;
     color: var(--off-white);
