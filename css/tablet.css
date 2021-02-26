@@ -18,6 +18,15 @@
     -o-transition: .3s all ease-out;
     transition: .3s all ease-out;
 }
+.fixed-navbar-light.scrolled .nav-link.active {
+    color: yellow;
+}
+
+
+/* General  */
+.fondo-mancha-left {
+    background-position: center center;
+}
 
 
 /* Inicio */
@@ -41,15 +50,12 @@
 
 
 /* Quienes somos  */
-.fondo-mancha-amarilla {
-    background-position: top center;
-}
 .quienes-somos--container {
     padding: 120px 0 80px;
 }
 
 .gallery--container {
-    padding: 80px 0 80px;
+    padding: 80px 0 50px;
 }
 .principal-gallery-content .img-principal {
     height: auto;
@@ -57,6 +63,12 @@
 
 .text-cinta-small--content h2 {
     font-size: 2.4rem;
+}
+
+
+.img-gallery-carousel  {
+    height: 250px;
+    background-position: center center;
 }
 
 
@@ -75,12 +87,26 @@
 
 
 /* Contacto   */
+.contacto--container {
+    padding: 65px 0 40px;
+}
 .contacto--formulario {
     width: 70%;
-    font-size: 1rem;
-    font-weight: 300;
-    color: var(--off-white);
 }
 .formulario-contacto--container {
     padding-left: 30px !important;
+}
+
+.map--container {
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-footer {
+    background-position: center center;
+}
+.feed-inst-content {
+    width: 60%;
 }

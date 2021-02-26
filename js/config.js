@@ -43,27 +43,48 @@
 	scrollWindow();
 
   //carousel opiniones
-  var opiniones = $('.owl-carousel');
-        opiniones.owlCarousel({
-        loop:true,
-        margin:30,
+	   $('#opiniones').owlCarousel({
+		loop:true,
+		margin:30,
         autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:3000,
         autoplayHoverPause:true,
         responsiveClass: true,
-        responsive: {
-        0: {
-        items: 1
+		responsive: {
+			0: {
+			items: 1
+	
+			},
+			480: {
+			items: 1
+			},
+			768: {
+			items: 1
+			}
+		   }
+	})
+	
 
+ //carousel gallery
+$('#gallery').owlCarousel({
+    loop: true,
+    margin:10,
+	autoplay:true,
+	autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
         },
-        480: {
-        items: 1
+        600:{
+            items:3,
         },
-        768: {
-        items: 1
+        1000:{
+            items:5,
         }
-       }
-       });
+    }
+})
 
   
        //Animacion
