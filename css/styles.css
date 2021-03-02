@@ -92,6 +92,9 @@ body {
 .navbar-nav li {
     margin-left: 20px;
 }
+.nav-link img {
+    width: 20px;
+}
 .fixed-navbar-light {
     background-color: var(--background-black);
 }
@@ -131,27 +134,32 @@ body {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
-.inicio-text-container {
+/* .inicio-text-container {
     position: relative;
     z-index: 2;
-}
+} */
 .text-inicio-content {
-    height: 625px;
+    display: flex;
+    justify-content: normal;
+    align-items: flex-end;
 }
 .title-inicio {
-    font-size: 3.1rem;
+    padding: 10px 10px;
+    font-size: 3rem;
     font-family: "Destroy";
     line-height: 4.4rem;
     color: var(--white);
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: rgba( 253, 184, 3, 0.5);
 }
-.text-inicio {
+/* .text-inicio {
     min-width: 300px;
     max-width: 520px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
     color: var(--off-white);
-}
+} */
 
 .img-cinta--content {
     width: 100%;
@@ -281,35 +289,34 @@ body {
 
 /* Como lo hacemos  */
 .como-hacemos--container {
-    padding: 60px 0 50px;
-    /* background-color: var(--white); */
+    padding: 60px 0 10px;
     background-color: rgba(255, 255, 255, 0.9);
 }
 .title--como-hacemos {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
-    color: var(--black);
+    color: var(--background-black);
 }
 .content-pasos {
-    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 .content-pasos img {
-    width: 60px;
+    width: 50px;
     height: 60px;
+    margin-right: 20px;
 }
 .content-pasos .number-pasos {
-    margin-top: 10px;
-    margin-bottom: 5px;
     font-size: 1.38rem;
     font-weight: 500;
     color: var(--grey);
 }
 .content-pasos .text-pasos {
-    width: 80%;
-    margin: 0 auto;
-    font-size: 1.125rem;
+    width: 70%;
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--black);
 }
@@ -317,7 +324,7 @@ body {
 /* Opiniones */
 .img-cinta-small {
     width: 100%;
-    height: 200px;
+    height: 210px;
     margin-top: 10px;
     margin-bottom: 30px;
     background-image: url(/assets/img/cinta-L.png);
@@ -342,12 +349,12 @@ body {
 }
 .carousel-content--img {
     width: 100%;
-    height: 450px;
+    height: 470px;
     border-radius: 10px;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 10, 20, 0.3) !important;
+    background-color: rgba(0, 10, 20, 0.2) !important;
     background-blend-mode: soft-light;
     overflow: hidden;
     position: relative;
@@ -357,7 +364,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgb(253,184,39);
-    background: linear-gradient(360deg, rgba(253,184,39,0.8519782913165266) 30%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(360deg, rgba(253,184,39,0.8519782913165266) 40%, rgba(0,0,0,0) 100%);
     top: 0px;
     left: 0px;
     position: absolute;
@@ -367,20 +374,30 @@ body {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: var(--black) !important;
 }
-.text-container--opiniones {
-    padding-top: 20%;
-    justify-content: center;
+.container--opiniones {
+    height: 100%;
+    align-items: flex-end;
 }
-.text-container--opiniones p {
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1.6rem;
-    color: var(--white);
-}
-.text-container--opiniones h6 {
-    font-size: 1.3rem;
+.text-opiniones p {
+     display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 1rem;
     font-weight: 400;
+    line-height: 1.4rem;
     color: var(--white);
+}
+.text-opiniones h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+}
+.bg-content-opinion {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: rgba(18, 18, 17, 0.4);
 }
 
 
@@ -389,7 +406,7 @@ body {
     text-align: center;
 }
 .head-paquete-container {
-    width: 68%;
+    width: 90%;
     height: 115px;
     margin: 0 auto;
     background-size: cover;

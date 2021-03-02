@@ -19,7 +19,7 @@
     transition: .3s all ease-out;
 }
 .fixed-navbar-light.scrolled .nav-link.active {
-    color: yellow;
+    color: var(--secondary-yellow);
 }
 
 
@@ -34,15 +34,18 @@
     width: 100%;
     height: auto;
 }
-.inicio-text-container .title-inicio {
+.text-inicio-content {
+    justify-content: flex-end;
+}
+.title-inicio {
     font-size: 6.8rem;
     text-align: right;
     line-height: 7.9rem;
 }
-.inicio-text-container .text-inicio {
+/* .text-inicio {
     font-size: 1.8rem;
     line-height: 2rem;
-}
+} */
 .text-cinta--container h3 {
     font-size: 2.6rem;
     line-height: 2.8rem;
@@ -71,14 +74,39 @@
     background-position: center center;
 }
 
+/* Como lo hacemos  */
+.como-hacemos--container {
+    padding: 60px 0 30px;
+}
+.content-pasos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 
 /* opiniones */
 .carousel-container--opiniones {
     padding: 50px 30px;
 }
 .carousel-content--img {
-    height: 560px;
+    height: 570px;
 }
+.text-opiniones {
+    width: 80%;
+    margin: 0 auto;
+}
+.text-opiniones p {
+    font-size: 1.125rem;
+    line-height: 1.6rem;
+}
+.text-opiniones h6 {
+    font-size: 1.25rem;
+}
+.bg-content-opinion {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 /* Paquetes */
 .carousel-cell {
