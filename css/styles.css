@@ -34,12 +34,44 @@ body {
   }
 
 
+.btn-reserva {
+    width: 170px;
+    padding: 10px ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.125rem ;
+    font-weight: 400;
+    line-height: 1.5rem ;
+    text-transform: uppercase;
+    background: rgb(240,101,32);
+    background: linear-gradient(90deg , rgba(240,101,32,1) 40%, rgba(253,184,39,1) 100%);
+    color: var(--white);
+}
+.btn-outline {
+    background: #fff8f6;
+    border: 3px solid var(--orange);
+    color: var(--orange);
+    box-shadow: 0px 4px 8px rgb(240 101 32 / 16%);
+}
+.btn-outline:hover {
+    border: 3px solid transparent;
+}
+.btn-reserva:hover {
+    text-decoration-line: none;
+    color: var(--white);
+    background: var(--orange);
+}
 
-.button-principal {
+.button-enviar-form {
     width: 170px;
     height: 48px;
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.2rem;
     background: rgb(240,101,32);
     background: linear-gradient(90deg , rgba(240,101,32,1) 40%, rgba(253,184,39,1) 100%);
@@ -47,9 +79,40 @@ body {
     border: 0;
     color: var(--white);
 }
-.button-principal:hover {
+.button-enviar-form:hover {
     background: var(--orange);
 }
+
+
+
+/* .btn-outline:hover {
+    border: 0;
+    color: var(--white);
+    background: rgb(240,101,32);
+    background: linear-gradient(90deg , rgba(240,101,32,1) 40%, rgba(253,184,39,1) 100%);
+} */
+
+/* .button-reserva {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #fff8f6;
+    border: 3px solid var(--orange);
+    box-shadow: 0px 4px 8px rgb(240 101 32 / 16%);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    color: var(--orange);
+}
+.button-reserva:hover {
+    color: var(--white);
+    background: rgb(240,101,32);
+    background: linear-gradient(90deg , rgba(240,101,32,1) 40%, rgba(253,184,39,1) 100%);
+    border: 0;
+} */
+
+
 
 .img-bg {
     background-position: center center;
@@ -98,6 +161,7 @@ body {
 .fixed-navbar-light {
     background-color: var(--background-black);
 }
+
 
 /* Inicio */
 .inicio-video--container {
@@ -384,7 +448,7 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.4rem;
     color: var(--white);
 }
@@ -399,6 +463,23 @@ body {
     /* background-color: rgba(255, 255, 255, 0.6); */
     background-color: rgba(18, 18, 17, 0.4);
 }
+.comillas {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    background-size: cover;
+    background-image: url(/assets/icons/left-quotes-sign.svg);
+}
+.right-quotes {
+    margin-left: 10px;
+    vertical-align: text-bottom;
+    background-image: url(/assets/icons/right-quotes-symbol.svg);
+}
+.left-quotes {
+    background-image: url(/assets/icons/left-quotes-sign.svg);
+}
 
 
 /* Paquetes */
@@ -406,8 +487,8 @@ body {
     text-align: center;
 }
 .head-paquete-container {
-    width: 90%;
-    height: 115px;
+    width: 75%;
+    height: 120px;
     margin: 0 auto;
     background-size: cover;
     background-position: center;
@@ -440,6 +521,7 @@ body {
 }
 .paquetes-info-container .text-paquete-incluye {
     margin-top: 20px;
+    margin-bottom: 30px;
     padding: 0;
     list-style: none;
     font-size: 1.1rem;
@@ -456,25 +538,7 @@ body {
     margin-right: 5px;
     color: var(--orange);
 }
-.button-reserva {
-    width: 150px;
-    height: 48px;
-    margin-top: 20px;
-    background-color: #fff8f6;
-    border: 3px solid var(--orange);
-    box-shadow: 0px 4px 8px rgb(240 101 32 / 16%);
-    border-radius: 5px;
-    font-size: 1.1rem;
-    font-weight: 300;
-    line-height: 1.4rem;
-    color: var(--orange);
-}
-.button-reserva:hover {
-    color: var(--white);
-    background: rgb(240,101,32);
-    background: linear-gradient(90deg , rgba(240,101,32,1) 40%, rgba(253,184,39,1) 100%);
-    border: 0;
-}
+
 
 /* Carrousel paquetes  */
   .carousel-cell {

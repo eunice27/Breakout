@@ -22,6 +22,11 @@
     color: var(--secondary-yellow);
 }
 
+.btn-reserva {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 /* General  */
 .fondo-mancha-left {
@@ -42,10 +47,6 @@
     text-align: right;
     line-height: 7.9rem;
 }
-/* .text-inicio {
-    font-size: 1.8rem;
-    line-height: 2rem;
-} */
 .text-cinta--container h3 {
     font-size: 2.6rem;
     line-height: 2.8rem;
@@ -68,11 +69,11 @@
     font-size: 2.4rem;
 }
 
-
 .img-gallery-carousel  {
     height: 250px;
     background-position: center center;
 }
+
 
 /* Como lo hacemos  */
 .como-hacemos--container {
@@ -92,7 +93,7 @@
     height: 570px;
 }
 .text-opiniones {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .text-opiniones p {
