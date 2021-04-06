@@ -34,7 +34,10 @@
 }
 
 
-/* Inicio */
+/* Inicio */ 
+.inicio-video--container {
+    height: 100vh;
+  }
 .inicio-video--container video{
     width: 100%;
     height: auto;
@@ -113,7 +116,12 @@
 .carousel-cell {
     width: 25%;
   }
-
+.paq-especiales-content {
+    width: 70%;
+}
+.btn-close {
+    width: 120px;
+}
 
 /* Contacto   */
 .contacto--container {
