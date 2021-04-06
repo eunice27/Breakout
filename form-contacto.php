@@ -4,7 +4,7 @@ $nombre = $_POST['nombre'];
 $correo = $_POST['correo'];
 $mensaje = $_POST['mensaje'];
 
-$destinatario = 'eunicebalderasy@gmail.com';
+$destinatario = 'reserva@breakout.com.mx';
 $header = "Enviado desde la pagina Breakout";
 
 // $mensajeCompleto = $message . "\nAtentamente: " . $nombre;
